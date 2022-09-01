@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Tushar Nandi",
+  "classifications": [ "CA", "BFF", "B2C", "WASM" ],
+  "identity": "Blazor.CleanArchitechture.B2C",
+  "name": "Blazor CleanArchitechture With b2c",
+  "shortName": "blazor-ca-sln",
+  "tags": {
+    "language": "C#",
+    "type": "Solution"
+  },
+  "sourceName": "CaBlazorTemplate",
+  "preferNameDirectory": true
+}

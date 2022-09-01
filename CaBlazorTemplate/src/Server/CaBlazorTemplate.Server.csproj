@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+	<ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\CaBlazorTemplate.Application.csproj" />
+    <ProjectReference Include="..\Client\CaBlazorTemplate.Client.csproj" />
+    <ProjectReference Include="..\Infrastructure\CaBlazorTemplate.Infrastructure.csproj" />
+    <ProjectReference Include="..\Shared\CaBlazorTemplate.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Extensions.AspNetCore.Configuration.Secrets" Version="1.2.2" />
+    <PackageReference Include="Blazored.Toast" Version="3.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="6.0.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="6.0.6" NoWarn="NU1605" />
+    <PackageReference Include="Microsoft.Identity.Web" Version="1.25.1" />
+    <PackageReference Include="Microsoft.Identity.Web.UI" Version="1.25.1" />
+    <PackageReference Include="Microsoft.Identity.Web.MicrosoftGraph" Version="1.25.1" />
+    <PackageReference Include="NetEscapades.AspNetCore.SecurityHeaders" Version="0.17.0" />
+    <PackageReference Include="NSwag.AspNetCore" Version="13.16.1" />
+    <PackageReference Include="NSwag.MSBuild" Version="13.16.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
