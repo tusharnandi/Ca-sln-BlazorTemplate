@@ -1,4 +1,4 @@
-# Ca-sln-BlazorTemplate
+# Clean Architecture Blazor WebAssembly Application Solution Template
 
 This is a solution template for creating a Blazor WebAssembly application hosted on ASP.NET 6.0 and following the principles of Clean Architecture.
 
@@ -13,5 +13,5 @@ dotnet new install Blazor.CleanArchitechture.B2C::2.0.1
 After the template has been installed successfully, you can create a new project using the following command
 
 ```
-dotnet new ca-bffb2c.sln -n myApp
+dotnet new blazor-ca-sln -n myApp
 ```
